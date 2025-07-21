@@ -1,4 +1,4 @@
-fetch("/code/data/json/setting.json")
+/* fetch("/code/data/json/setting.json")
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
@@ -11,4 +11,4 @@ fetch("/code/data/json/setting.json")
   })
   .catch(error => {
     console.error('Error loading settings:', error);
-  });
+  }); */
