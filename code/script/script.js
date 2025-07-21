@@ -1,7 +1,7 @@
 fetch('/code/data/style/json/style of home page.json')
   .then(res => res.json())
   .then(style => {
-    const el = document.getElementById("LogoSunchineSalonFormatDivPageHome");
+    const el = document.getElementById("LogoSunchineSalonFormatATagpPageHome");
 
     el.style.backgroundColor = style["background-color"];
     el.style.color = style["color"];
